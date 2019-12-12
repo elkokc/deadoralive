@@ -18,7 +18,7 @@ if (len(sys.argv) > 1):
                         help='file with scope')
     parser.add_argument('--scheme', type=str,
                         help='uri scheme', default="http://")
-    parser.add_argument('-p','--port', type=str,
+    parser.add_argument('--port','-p', type=str,
                         help='port to connect', default=80)
     parser.add_argument('--timeout', type=float,
                         help='timeout', default=0.2)
