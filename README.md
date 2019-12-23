@@ -19,7 +19,7 @@ Process some integers.
 
 optional arguments:
   -h, --help            show this help message and exit
-  --scope SCOPE         file with scope
+  --scope SCOPE         file with scope, each host on new line
   --scheme SCHEME       uri scheme
   --port PORT, -p PORT  port to connect
   --timeout TIMEOUT     timeout
