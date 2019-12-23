@@ -8,14 +8,14 @@ settings = {
     "scope" : "scope.txt",
     "scheme" : "http://",
     "port" : 80,
-    "timeout" : 0.1
+    "timeout" : 0.2
 }
 
 if (len(sys.argv) > 1):
     console_mode = True
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--scope', type=str,
-                        help='file with scope')
+                        help='file with scope, each host on new line')
     parser.add_argument('--scheme', type=str,
                         help='uri scheme', default="http://")
     parser.add_argument('--port','-p', type=str,
